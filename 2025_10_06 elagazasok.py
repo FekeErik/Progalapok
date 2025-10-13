@@ -52,3 +52,6 @@ else:
 #1. Derékszögú-e?
 #2. Egyenlőszárú-e?
 #3. Szabályos-e?
+
+#na nahui
+#lemasolni repo cuccait idk
