@@ -25,3 +25,19 @@ print(kod)
 ujkod= kod + 1
 ujkarakter= chr(ujkod)
 print(ujkarakter)
+
+a=random.randint(97,122)
+b=random.randint(97,122)
+c=random.randint(97,122)
+print(a,b,c)
+
+#kérje be a felhasználó keresztnevét! Generáljon neki egy jelszót, az első három karakteránek ascii kódját. 
+#Ha nincs a név 3 jegyű, akkor kettő esetén a hossz érték legyen a szorzat 3. tagja. 1 esetén a szám köbe legyen
+#pl Alma 65 * 108 * 109
+#Co - 67 * 111 * 2
+#G - 71* 71* 71
+
+Keresztnév=input("Adjon meg egy keresztnevet")
+if(len(Keresztnév>3)):
+    if(len(Keresztnév)==2):
+        
