@@ -40,4 +40,4 @@ print(a,b,c)
 Keresztnév=input("Adjon meg egy keresztnevet")
 if(len(Keresztnév>3)):
     if(len(Keresztnév)==2):
-        
+        print("nahui")

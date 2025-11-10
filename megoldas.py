@@ -6,3 +6,4 @@ mp = sec % 60
 print("óra", ora)
 print("perc",perc)
 print("másodperc", mp)
+
