@@ -13,3 +13,10 @@ print("Összeg",osszeg)
 
 #hány darab páros véletlen számot generált ki?
 #melyik a legnagyobb véletlen szám?
+
+maxi=osszeg
+for i in range(len(velSzam)):
+    if(maxi<i):
+        i=maxi
+        maxi=i
+print(maxi)

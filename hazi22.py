@@ -6,4 +6,4 @@ for i in range(len(szam)):
     if(szam%2==0):
         paros+=1
 
-print("paros szamok osszege:" paros)
+print("paros szamok osszege:",paros)
