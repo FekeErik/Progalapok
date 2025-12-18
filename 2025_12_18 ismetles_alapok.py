@@ -34,3 +34,8 @@ print("Szám: ", db)
 #szám utolsó számjegye páros-e?     
 utolso_szamjegy = db % 10
 print("Utolsó számjegy: ", utolso_szamjegy)
+
+if (utolso_szamjegy % 2 == 0):
+    print("páros")
+else:
+    print("Páratlan")
