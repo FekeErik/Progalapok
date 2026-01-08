@@ -1,4 +1,5 @@
 import random
+import math
 
 n = 30
 lista = []
@@ -19,3 +20,8 @@ for elem in lista:
 #atlag = osszeg/len(lista)
 atlag=osszeg/n
 print(round(atlag,2))
+
+szorzat = 1
+for elem in lista:
+    szorzat *= elem
+matlag=math.pow(szorzat,1/n)
