@@ -17,4 +17,5 @@ len(lista_neve)
 """
 
 lista=["Blyat", "Nahui", "Pitchka", "Mudak", "Genghis khan"]
+print(lista)
 print(len(lista),lista[0],(lista-1))
