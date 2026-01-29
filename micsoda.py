@@ -17,7 +17,24 @@ def listaAtlaga(lista):
         osszeg+=elem
     atlag=osszeg/len(lista)
     return atlag
+def minimumErtek(lista):
+    mine=lista[0]
+    for i in range(len(lista)):
+        if lista[i]<mine:
+            mine=lista[i]
+    return mine
 
+def maximumErtek(lista):
+    maxe=lista[0]
+    for i in range(len(lista)):
+        if lista[i]>maximum:
+            maximum=lista[i]
+    return maxe
+
+def terjedelem(lista):
+    maxe=maximumErtek(lista)
+    mine=maximumErtek(lista)
+    return maxe-mine
 def maximumIndex(lista):
     maxi=0
     for i in range(len(lista)):
@@ -26,8 +43,8 @@ def maximumIndex(lista):
     return maxi
 
 def szamolas(lista):
-    minimum=0
-    maximum=0
+    minimum=lista[0]
+    maximum=lista[0]
     for i in range(len(lista)):
         if lista[i]>maximum:
             maximum=lista[i]
@@ -72,6 +89,11 @@ def main():
     maxlista1=maximumIndex(lista1)
     print("Első legnagyobb elem helye:", maxlista1) 
 
+    maximumIndexlista1=maximumIndex(lista1)
+    print("Első lista legnagyobb eleme: ", maximumIndexlista1)
+
+    print("Lista1 maximum: ", maximumErtek(lista1))
+    print("Lista1 minimum: ", minimumErtek(lista1))
     print("A lista terjedelme: ",szamolas )
 main()
 
